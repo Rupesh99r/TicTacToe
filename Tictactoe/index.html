@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src="tictac.js"></script>
+</head>
+
+<body>
+    <h1 align="center">welcome to tic tac toe</h1>
+    <table class="container">
+        <tr>
+            <td>
+                <button class="button" id="1" onclick="enter(1);"></button>
+            </td>
+            <td>
+                <button class="button" id="2" onclick="enter(2);"></button>
+            </td>
+            <td>
+                <button class="button" id="3" onclick="enter(3);"></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button" id="4" onclick="enter(4);"></button>
+            </td>
+            <td>
+                <button class="button" id="5" onclick="enter(5);"></button>
+            </td>
+            <td>
+                <button class="button" id="6" onclick="enter(6);"></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button" id="7" onclick="enter(7);"></button>
+            </td>
+            <td>
+                <button class="button" id="8" onclick="enter(8);"></button>
+            </td>
+            <td> <button class="button" id="9" onclick="enter(9);"></button>
+            </td>
+        </tr>
+    </table>
+    <p align="center" class="turn" id="turn">now it is O turn</p>
+    <p align="center"><button class="replay" onclick="replay();">replay</button></p>
+</body>
+
+</html>

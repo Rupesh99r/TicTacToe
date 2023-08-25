@@ -1,0 +1,52 @@
+h1 {
+    color: orange;
+    font-size: 60px;
+}
+
+body {
+    background-color: rgb(9, 78, 25);
+    font-family: 'Finger Paint', cursive;
+}
+
+table {
+    width: 330px;
+    height: 330px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid rgb(9, 78, 25);
+    border-collapse: collapse;
+}
+
+td {
+    border-radius: 30px;
+    background-color: chocolate;
+    width: 90px;
+    height: 90px;
+    border: 5px solid purple;
+    margin: 10px 10px 10px 10px;
+}
+
+.button {
+    background-color: orange;
+    width: 90px;
+    height: 90px;
+    border: none;
+    font-size: 50px;
+    color: yellow;
+    margin: 5px 5px 5px 5px;
+}
+
+.turn {
+    color: rgb(143, 32, 32);
+    width: 400px;
+    margin: auto;
+    font-size: 40px;
+    color: chocolate;
+}
+
+.replay {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: chocolate;
+}
